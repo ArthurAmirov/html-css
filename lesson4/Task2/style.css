@@ -1,4 +1,4 @@
-body {
+.par1 {
     font-size: 24px;
 }
 
@@ -6,6 +6,6 @@ body {
     color: green;
 }
 
-ul {
+.par2 {
     color: orange;
 }
