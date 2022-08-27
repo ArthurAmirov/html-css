@@ -1,4 +1,4 @@
-.header:first-child {
+.header:nth-child(1) {
     background-color: darkturquoise;
     height: 40px;
 }
@@ -8,6 +8,7 @@
 }
 
 .nav-item {
+    height: 40px;
     margin-left: 16px;
     color: white;
     display: inline;
@@ -22,20 +23,46 @@
     height: 200px;
     width: 200px;
     background-color: aquamarine;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    pos
+    position: fixed;
+    top: 310px;
+    left: 344px;
 }
 
 .ear_right {
     height: 60px;
     width: 40px;
     background-color: brown;
+    position: absolute;
+    top: -60px;
+    left: -40px;
 }
 
 .ear_left {
     height: 60px;
     width: 40px;
     background-color: brown;
+    position: absolute;
+    top: -60px;
+    right: -40px;
+}
+
+.eye_right {
+    background-color: gray;
+    background-color: grey;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 80px;
+    left: 30px;
+}
+
+.eye_left {
+    background-color: grey;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 80px;
+    right: 30px;
 }
