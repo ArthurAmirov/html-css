@@ -1,17 +1,20 @@
-.header:nth-child(1) {
+.header .navigation .nav-list {
     background-color: darkturquoise;
     height: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
-.navigation {
+
+/*.navigation {
     height: 40px;
-}
+}*/
 
 .nav-item {
-    height: 40px;
     margin-left: 16px;
     color: white;
     display: inline;
+    line-height: normal;
 }
 
 .content {
@@ -23,9 +26,9 @@
     height: 200px;
     width: 200px;
     background-color: aquamarine;
-    position: fixed;
-    top: 310px;
-    left: 344px;
+    position: absolute;
+    top: calc(100%/2);
+    left: calc(100%/2);
 }
 
 .ear_right {
