@@ -1,0 +1,42 @@
+.header:first-child {
+    background-color: darkturquoise;
+    height: 40px;
+}
+
+
+/*.navigation {
+    height: 40px;
+}*/
+
+.nav-item {
+    margin-left: 16px;
+    color: white;
+    display: inline;
+}
+
+.content {
+    background-color: beige;
+    height: 5000px;
+}
+
+.head {
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    pos
+}
+
+.ear_right {
+    height: 60px;
+    width: 40px;
+    background-color: brown;
+}
+
+.ear_left {
+    height: 60px;
+    width: 40px;
+    background-color: brown;
+}
