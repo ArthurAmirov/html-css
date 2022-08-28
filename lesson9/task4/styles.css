@@ -1,75 +1,17 @@
-.header .navigation .nav-list {
-    background-color: darkturquoise;
+.header .navigation {
     height: 40px;
-    width: 100%;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    position: fixed;
-    left: 0;
-    top: 0;
+    background-color: darkturquoise;
+    line-height: 100%;
 }
 
-* {
-    box-sizing: border-box;
+.nav-list {
+    margin-left: 16px;
+    color: white;
+    margin-top: 0px;
 }
 
 .nav-item {
-    margin-left: 16px;
-    color: white;
-    display: inline;
+    display: inline-block;
     line-height: 40px;
-}
-
-.content {
-    background-color: beige;
-    height: 5000px;
-}
-
-.head {
-    height: 200px;
-    width: 200px;
-    background-color: aquamarine;
-    position: fixed;
-    top: calc(100%/2);
-    left: calc(100%/2);
-    right: calc(100%/2);
-}
-
-.ear_right {
-    height: 60px;
-    width: 40px;
-    background-color: brown;
-    position: absolute;
-    top: -60px;
-    left: -40px;
-}
-
-.ear_left {
-    height: 60px;
-    width: 40px;
-    background-color: brown;
-    position: absolute;
-    top: -60px;
-    right: -40px;
-}
-
-.eye_right {
-    background-color: gray;
-    background-color: grey;
-    height: 30px;
-    width: 30px;
-    border-radius: 50px;
-    position: absolute;
-    top: 80px;
-    left: 30px;
-}
-
-.eye_left {
-    background-color: grey;
-    height: 30px;
-    width: 30px;
-    border-radius: 50px;
-    position: absolute;
-    top: 80px;
-    right: 30px;
+    height: 40px;
 }
