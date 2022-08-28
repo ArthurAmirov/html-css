@@ -1,14 +1,17 @@
 .header .navigation .nav-list {
     background-color: darkturquoise;
     height: 40px;
+    width: 100%;
     margin-top: 0px;
     margin-bottom: 0px;
+    position: fixed;
+    left: 0;
+    top: 0;
 }
 
-
-/*.navigation {
-    height: 40px;
-}*/
+* {
+    box-sizing: border-box;
+}
 
 .nav-item {
     margin-left: 16px;
@@ -26,9 +29,10 @@
     height: 200px;
     width: 200px;
     background-color: aquamarine;
-    position: absolute;
+    position: fixed;
     top: calc(100%/2);
     left: calc(100%/2);
+    right: calc(100%/2);
 }
 
 .ear_right {
