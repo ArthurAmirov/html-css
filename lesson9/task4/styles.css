@@ -14,13 +14,14 @@
 .nav-list {
     color: white;
     margin-top: 0px;
-    margin-left: 16px;
+    /*margin-left: 16px;*/
 }
 
 .nav-item {
     display: inline-block;
     line-height: 40px;
     height: 40px;
+    margin-left: 16px;
 }
 
 .content {
