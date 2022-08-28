@@ -1,7 +1,12 @@
-.header {
+/*.header {
     position: fixed;
     z-index: 1;
     width: 100%;
+    height: 40px;
+}*/
+
+* {
+    box-sizing: border-box;
 }
 
 .header .navigation {
@@ -9,22 +14,23 @@
     background-color: darkturquoise;
     /* position: fixed;
     z-index: 1;*/
-}
-
-* {
-    box-sizing: border-box;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 40px;
 }
 
 .nav-list {
     color: white;
-    margin-top: 0px;
+    /* margin-top: 0px;*/
     /*margin-left: 16px;*/
 }
 
 .nav-item {
-    display: inline-block;
-    line-height: 40px;
+    display: block;
+    line-height: 10px;
     height: 40px;
+    float: left;
     margin-left: 16px;
 }
 
