@@ -14,6 +14,7 @@
 .nav-list {
     color: white;
     margin-top: 0px;
+    margin-left: 16px;
 }
 
 .nav-item {
@@ -32,7 +33,7 @@
     background-color: aquamarine;
     height: 200px;
     width: 200px;
-    position: relative;
+    position: absolute;
     top: calc(50% - 100px);
     left: calc(50% - 100px);
 }
