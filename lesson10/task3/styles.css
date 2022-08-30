@@ -1,0 +1,66 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh
+}
+
+.header {
+    height: 40px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+}
+
+.navi {
+    display: flex;
+    margin-right: 16px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navi_oll {
+    margin-right: 16px;
+}
+
+.main {
+    flex-grow: 1;
+    display: flex;
+}
+
+.footer {
+    height: 40px;
+    background-color: green;
+    display: flex;
+}
+
+.footer_text {
+    margin: auto;
+}
+
+.section {
+    display: flex;
+    background-color: pink;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.news {
+    display: flex;
+    width: 200px;
+    background-color: gray;
+    flex-direction: column;
+}
+
+.news2 {
+    display: flex;
+    justify-content: center;
+    margin: 16px 0px;
+}
+
+.news3__ {
+    height: 40px;
+    margin-left: 16px;
+    list-style-type: none;
+}
