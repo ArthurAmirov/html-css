@@ -1,0 +1,35 @@
+.articles {
+    display: flex;
+}
+
+.visible-text {
+    height: 100px;
+    width: 150px;
+    background-color: beige;
+    margin: 16px;
+}
+
+.cropped {
+    height: 100px;
+    width: 150px;
+    background-color: beige;
+    margin: 16px;
+    overflow: hidden;
+}
+
+.both-scrolls {
+    height: 100px;
+    width: 150px;
+    background-color: beige;
+    margin: 16px;
+    overflow: scroll;
+}
+
+.vertical-scroll {
+    height: 100px;
+    width: 150px;
+    background-color: beige;
+    margin: 16px;
+    overflow: auto;
+    cursor: all-scroll;
+}
