@@ -1,0 +1,16 @@
+div>div {
+    width: 100px;
+    height: 100px;
+    background: coral;
+}
+
+.container :nth-child(1) {
+    display: none;
+}
+
+.container :nth-child(2) {
+    visibility: hidden;
+}
+
+
+/* put your code here */
