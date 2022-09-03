@@ -7,7 +7,6 @@
     padding: 16px;
     background-color: darkgreen;
     opacity: 0.8;
-    color: white;
 }
 
 .menu-list {
@@ -39,8 +38,5 @@
     opacity: 1;
     cursor: pointer;
     font-size: 16px;
-}
-
-* {
-    box-sizing: border-box;
+    color: white;
 }
