@@ -1,0 +1,36 @@
+.gallery {
+    display: flex;
+}
+
+.image1 {
+    border: 1px dotted gray;
+    margin: 16px;
+    height: 200px;
+    width: 200px;
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/hw1/nature1.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image2 {
+    border: 1px dotted gray;
+    margin: 16px;
+    height: 200px;
+    width: 200px;
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/hw1/nature2.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image3 {
+    border: 1px dotted gray;
+    margin: 16px;
+    height: 200px;
+    width: 200px;
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/hw1/nature3.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
