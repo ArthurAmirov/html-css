@@ -1,20 +1,17 @@
-.header {
-    font-size: 74px;
-}
-
-.h {
-    text-align: center;
-    text-overflow: ellipsis;
-    width: 50%;
-    white-space: nowrap;
-    overflow: hidden;
-}
-
-.center {
-    height: 200px;
-    background-color: coral;
-    text-align: center;
-    line-height: 200px;
-    color: white;
-    text-transform: uppercase;
-}
+    .header {
+        font-size: 74px;
+        text-align: center;
+        text-overflow: ellipsis;
+        width: 50%;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    
+    .center {
+        height: 200px;
+        background-color: coral;
+        text-align: center;
+        line-height: 200px;
+        color: white;
+        text-transform: uppercase;
+    }
