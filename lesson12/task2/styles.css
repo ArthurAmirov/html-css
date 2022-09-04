@@ -5,6 +5,7 @@
         width: 50%;
         white-space: nowrap;
         overflow: hidden;
+        margin: auto;
     }
     
     .center {
