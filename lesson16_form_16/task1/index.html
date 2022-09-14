@@ -9,6 +9,10 @@
         .okk {
             margin: 16px;
         }
+        
+        .choose-gender {
+            margin: 16px;
+        }
     </style>
 </head>
 
@@ -26,12 +30,13 @@
             Accept terms and conditions
         </label>
         </div>
-        <div class="okk">
-            <label> <input type="radio" name="gender" checked />Male</label>
-            <label><input type="radio" name="gender" />Female</label>
-
-            <label><input type="radio" name="gender" />Secret</label>
-
+        <div class="choose-gender">
+            <input type="radio" id="male" name="gender" checked />
+            <label for="male"> Male </label>
+            <input type="radio" id="female" name="gender" />
+            <label for="female"> Female </label>
+            <input type="radio" id="secret" name="gender" />
+            <label for="secret"> Secret </label>
         </div>
         <div class="okk">
             <textarea name="description" placeholder="Write description..."></textarea>
