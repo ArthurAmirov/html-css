@@ -45,3 +45,7 @@
     border-radius: 4px;
     text-transform: uppercase;
 }
+
+.form-input:required {
+    border: 3px solid #ff0000;
+}
