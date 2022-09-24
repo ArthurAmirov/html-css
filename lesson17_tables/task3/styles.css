@@ -1,0 +1,77 @@
+.chess {
+    margin: 16px;
+}
+
+.chess,
+.jach,
+.stroka {
+    border: 1px solid black;
+    border-collapse: collapse;
+    box-sizing: border-box;
+}
+
+.jach {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.stroka:nth-child(1) .jach {
+    border: none;
+    background-color: white;
+}
+
+.stroka:nth-child(10) .jach {
+    border: none;
+    background-color: white;
+}
+
+.stroka .jach:nth-child(1) {
+    border-bottom: hidden;
+    background-color: white;
+}
+
+.stroka .jach:nth-child(10) {
+    border-bottom: hidden;
+    background-color: white !important;
+}
+
+.stroka:nth-child(10) .jach:nth-child(10) {
+    border-bottom: 1px solid black;
+}
+
+.stroka:nth-child(10) .jach:nth-child(1) {
+    border-bottom: 1px solid black;
+}
+
+.stroka:nth-child(2) .jach:nth-child(2n+3) {
+    background-color: black;
+}
+
+.stroka:nth-child(3) .jach:nth-child(2n+2) {
+    background-color: black;
+}
+
+.stroka:nth-child(4) .jach:nth-child(2n+3) {
+    background-color: black;
+}
+
+.stroka:nth-child(5) .jach:nth-child(2n+2) {
+    background-color: black;
+}
+
+.stroka:nth-child(6) .jach:nth-child(2n+3) {
+    background-color: black;
+}
+
+.stroka:nth-child(7) .jach:nth-child(2n+2) {
+    background-color: black;
+}
+
+.stroka:nth-child(8) .jach:nth-child(2n+3) {
+    background-color: black;
+}
+
+.stroka:nth-child(9) .jach:nth-child(2n+2) {
+    background-color: black;
+}
