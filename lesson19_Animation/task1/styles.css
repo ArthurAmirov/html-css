@@ -14,8 +14,6 @@
     text-align: center;
     line-height: 100px;
     opacity: 0.5;
-    transition: width 2s, opacity 0.5s;
-    transition-timing-function: linear;
 }
 
 .rect_ease {
@@ -26,8 +24,6 @@
     text-align: center;
     line-height: 100px;
     opacity: 0.5;
-    transition: width 2s, opacity 0.5s;
-    transition-timing-function: ease;
 }
 
 .rect_ease-in {
@@ -38,8 +34,6 @@
     text-align: center;
     line-height: 100px;
     opacity: 0.5;
-    transition: width 2s, opacity 0.5s;
-    transition-timing-function: ease-in;
 }
 
 .rect_ease-out {
@@ -50,8 +44,6 @@
     text-align: center;
     line-height: 100px;
     opacity: 0.5;
-    transition: width 2s, opacity 0.5s;
-    transition-timing-function: ease-out;
 }
 
 .rect_ease-in-out {
@@ -62,31 +54,39 @@
     text-align: center;
     line-height: 100px;
     opacity: 0.5;
-    transition: width 2s, opacity 0.5s;
-    transition-timing-function: ease-in-out;
 }
 
 .rect_linear:hover {
     width: 100%;
     opacity: 1;
+    transition: width 2s, opacity 0.5s;
+    transition-timing-function: linear;
 }
 
 .rect_ease:hover {
     width: 100%;
     opacity: 1;
+    transition: width 2s, opacity 0.5s;
+    transition-timing-function: ease;
 }
 
 .rect_ease-in:hover {
     width: 100%;
     opacity: 1;
+    transition: width 2s, opacity 0.5s;
+    transition-timing-function: ease-in;
 }
 
 .rect_ease-out:hover {
     width: 100%;
     opacity: 1;
+    transition: width 2s, opacity 0.5s;
+    transition-timing-function: ease-out;
 }
 
 .rect_ease-in-out:hover {
     width: 100%;
     opacity: 1;
+    transition: width 2s, opacity 0.5s;
+    transition-timing-function: ease-in-out;
 }
