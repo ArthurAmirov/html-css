@@ -14,7 +14,8 @@
     text-align: center;
     line-height: 100px;
     opacity: 0.5;
-    transition: width 2s, opacity 0.5s;
+    transition-property: width, opacity;
+    transition-duration: 2s, 0.5s;
     transition-timing-function: linear;
 }
 
@@ -26,7 +27,8 @@
     text-align: center;
     line-height: 100px;
     opacity: 0.5;
-    transition: width 2s, opacity 0.5s;
+    transition-property: width, opacity;
+    transition-duration: 2s, 0.5s;
     transition-timing-function: ease;
 }
 
@@ -38,8 +40,9 @@
     text-align: center;
     line-height: 100px;
     opacity: 0.5;
-    transition: width 2s, opacity 0.5s;
-    transition-timing-function: ease-in;
+    transition-property: width, opacity;
+    transition-duration: 2s, 0.5s;
+    animation-timing-function: ease-in;
 }
 
 .rect_ease-out {
@@ -50,7 +53,8 @@
     text-align: center;
     line-height: 100px;
     opacity: 0.5;
-    transition: width 2s, opacity 0.5s;
+    transition-property: width, opacity;
+    transition-duration: 2s, 0.5s;
     transition-timing-function: ease-out;
 }
 
@@ -62,7 +66,8 @@
     text-align: center;
     line-height: 100px;
     opacity: 0.5;
-    transition: width 2s, opacity 0.5s;
+    transition-property: width, opacity;
+    transition-duration: 2s, 0.5s;
     transition-timing-function: ease-in-out;
 }
 
