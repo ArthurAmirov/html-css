@@ -19,19 +19,6 @@
     transition-duration: 2s, 0.5s;
 }
 
-.rect_ease {
-    margin-bottom: 16px;
-    width: 100px;
-    height: 100px;
-    background-color: coral;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0.5;
-    transition-property: width, opacity;
-    transition-duration: 2s, 0.5s;
-}
-
 .rect :nth-child(1) {
     transition-timing-function: linear;
 }
