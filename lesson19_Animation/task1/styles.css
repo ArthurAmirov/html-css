@@ -18,15 +18,15 @@
     transition: width 2s, opacity 0.5s;
 }
 
-.ease {
+.liner {
     transition-timing-function: linear;
 }
 
-.ease-in {
+.ease {
     transition-timing-function: ease;
 }
 
-.ease-out {
+.ease-in {
     transition-timing-function: ease-in;
 }
 
