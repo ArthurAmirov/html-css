@@ -5,6 +5,7 @@
 .cont {
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 100vh;
 }
 
@@ -22,7 +23,7 @@
     font-weight: 700;
     transition-timing-function: ease;
     animation: move 2s;
-    animation-fill-mode: initial;
+    animation-fill-mode: top: calc(50vh - 50px);
     position: absolute;
 }
 
