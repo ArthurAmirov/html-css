@@ -45,4 +45,5 @@
     animation: moving 2s;
     animation: blinking 2s;
     animation-iteration-count: infinite;
+    position: absolute;
 }
