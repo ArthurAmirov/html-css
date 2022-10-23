@@ -22,15 +22,15 @@
     font-weight: 700;
     transition-timing-function: ease;
     animation: move 2s;
-    animation-fill-mode: backwards;
+    animation-fill-mode: initial;
     position: absolute;
 }
 
 @keyframes move {
-    0% {
+    from {
         top: -100px;
     }
-    100% {
+    to {
         top: calc(50vh - 50px);
     }
 }
