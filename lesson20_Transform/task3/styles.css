@@ -9,7 +9,6 @@
 
 .spinner {
     margin: auto;
-    padding-top: 1px;
 }
 
 .spinner-text {
@@ -27,8 +26,6 @@
     border-radius: 50px;
     margin: auto;
     margin-bottom: 8px;
-    justify-content: center;
-    align-items: center;
     animation: spin 2s linear infinite;
 }
 
