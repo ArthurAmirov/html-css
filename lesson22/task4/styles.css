@@ -40,8 +40,9 @@ html {
     text-decoration: none;
     color: white;
     width: 100%;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+    line-height: 2em;
+    padding: 0.5em;
+    text-align: center;
 }
 
 .nav-list-item {
