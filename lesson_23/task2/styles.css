@@ -8,6 +8,16 @@ body {
   align-items: center;
   height: 100vh;
 }
+@media (orientation: landscape) {
+  body body {
+    flex-direction: row;
+  }
+}
+@media (orientation: portrait) {
+  body body {
+    flex-direction: column;
+  }
+}
 
 .square {
   width: 100px;

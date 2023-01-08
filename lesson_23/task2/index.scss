@@ -1,27 +1,37 @@
-@import'breakpoints.scss';
-* {
-    box-sizing: border-box;
-}
-
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.square {
-    width: 100px;
-    height: 100px;
-    margin: 16px;
-    background-color: #ff7f50;
-    @include for-medium-up {
-        background-color: #8a2eb2;
+    @import'breakpoints.scss';
+    * {
+        box-sizing: border-box;
     }
-    @include for-mediumm-up {
-        background-color: #a61;
+    
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        @media (orientation: landscape) {
+            body {
+                flex-direction: row;
+            }
+        }
+        @media (orientation: portrait) {
+            body {
+                flex-direction: column;
+            }
+        }
     }
-    @include for-large-up {
-        background-color: #c47;
+    
+    .square {
+        width: 100px;
+        height: 100px;
+        margin: 16px;
+        background-color: #ff7f50;
+        @include for-medium-up {
+            background-color: #8a2eb2;
+        }
+        @include for-mediumm-up {
+            background-color: #a61;
+        }
+        @include for-large-up {
+            background-color: #c47;
+        }
     }
-}
