@@ -13,7 +13,7 @@ body {
 .square {
     width: 100px;
     height: 100px;
-    margin: 8px;
+    margin: 16px;
     background-color: #ff7f50;
     @include for-medium-up {
         background-color: #8a2eb2;
