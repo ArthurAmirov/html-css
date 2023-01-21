@@ -24,3 +24,15 @@ $lg: 1200px;
         @content
     }
 }
+
+@mixin port {
+    @media (orientation: portrait) {
+        @content
+    }
+}
+
+@mixin land {
+    @media (orientation: landscape) {
+        @content
+    }
+}

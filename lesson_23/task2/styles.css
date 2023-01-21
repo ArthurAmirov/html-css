@@ -8,14 +8,18 @@ body {
   align-items: center;
   height: 100vh;
 }
-@media (orientation: landscape) {
-  body body {
-    flex-direction: row;
-  }
+
+.container {
+  display: flex;
 }
 @media (orientation: portrait) {
-  body body {
+  .container {
     flex-direction: column;
+  }
+}
+@media (orientation: landscape) {
+  .container {
+    flex-direction: row;
   }
 }
 
