@@ -1,41 +1,42 @@
-                                                                                        .navigation {
-                                                                                        background-color: #ff7f50;
-                                                                                        min-height: 200px;
-                                                                                        display: flex;
-                                                                                        flex: 1 1;
-                                                                                    }
-                                                                                    
-                                                                                    .produts-list {
-                                                                                        background-color: #006400;
-                                                                                        min-height: 200px;
-                                                                                        display: flex;
-                                                                                        flex: 1 1;
-                                                                                    }
-                                                                                    
-                                                                                    .news {
-                                                                                        background-color: #0ff;
-                                                                                        min-height: 200px;
-                                                                                        display: flex;
-                                                                                        flex: 1 1;
-                                                                                    }
-                                                                                    
-                                                                                    .info {
-                                                                                        text-transform: lowercase;
-                                                                                        border-radius: 4px;
-                                                                                        background-color: #faebd7;
-                                                                                        font-family: Verdana, Geneva, Tahoma, sans-serif;
-                                                                                        padding: 8px;
-                                                                                        margin: auto;
-                                                                                    }
-                                                                                    
-                                                                                    @media screen and (min-width:600px) {
-                                                                                        .container {
-                                                                                            display: flex;
-                                                                                            flex: 2 2;
-                                                                                        }
-                                                                                    }
-                                                                                    
-                                                                                    @media screen and (min-width:900px) {
-                                                                                        .content {
-                                                                                            display: flex;
-                                                                                        }
+    .navigation {
+        background-color: #ff7f50;
+        min-height: 200px;
+        display: flex;
+        flex: 1 1;
+    }
+    
+    .produts-list {
+        background-color: #006400;
+        min-height: 200px;
+        display: flex;
+        flex: 1 1;
+    }
+    
+    .news {
+        background-color: #0ff;
+        min-height: 200px;
+        display: flex;
+        flex: 1 1;
+    }
+    
+    .info {
+        text-transform: lowercase;
+        border-radius: 4px;
+        background-color: #faebd7;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 8px;
+        margin: auto;
+    }
+    
+    @media screen and (min-width:600px) {
+        .container {
+            display: flex;
+            flex: 2 2;
+        }
+    }
+    
+    @media screen and (min-width:900px) {
+        .content {
+            display: flex;
+        }
+    }
